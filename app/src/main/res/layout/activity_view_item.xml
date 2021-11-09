@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewItemActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ic_lock_background"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        tools:context=".ViewItemActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="450dp"
+            android:layout_height="200dp"
+            android:layout_margin="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C67055"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ic_lock_background"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C67055"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:id="@+id/ItemsRemaining"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ic_lock_background"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:id="@+id/Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C67055"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:id="@+id/Rating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ic_lock_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:id="@+id/Description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="addToCart_OnClick"
+                android:text="Add To Cart" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

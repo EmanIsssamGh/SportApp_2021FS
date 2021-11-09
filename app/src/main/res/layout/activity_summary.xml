@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecyclerViewActivity"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/itemPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock_foreground"
+
+            />
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="Summary"
+            android:textColor="#656E9E"
+            android:textColorHighlight="#407983"
+            android:textSize="24dp"
+
+            />
+
+        <TextView
+            android:id="@+id/allItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/items"
+            android:textColor="#656E9E"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+
+            android:textColorHighlight="#407983" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:text="Price:"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+
+            android:textColor="#656E9E"
+            android:textColorHighlight="#407983" />
+
+        <TextView
+            android:id="@+id/tax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:text="Tax:"
+            android:layout_marginBottom="6dp"
+
+            android:textColor="#656E9E"
+            android:textColorHighlight="#407983"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginBottom="6dp"
+
+            android:fontFamily="sans-serif-black"
+            android:text="Total Price:"
+            android:textColor="#656E9E"
+            android:textColorHighlight="#407983"
+            android:textSize="16sp"
+
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android_Group_Assignment_1</string>
+    <string name="add">Add</string>
+    <string name="radio_male" />
+    <string name="radio_female" />
+    <string name="search_by_name">Search By Name</string>
+    <string name="search">Search</string>
+    <string name="add_student">Add item</string>
+    <string name="view_cart_items">View Cart Items</string>
+    <string name="items">Items:</string>
+</resources>
